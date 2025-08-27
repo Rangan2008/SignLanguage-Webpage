@@ -2,5 +2,5 @@ flask
 opencv-python
 numpy
 tensorflow
-mediapipe==0.10.9
+mediapipe
 
