@@ -2,7 +2,7 @@ services:
   - type: web
     name: sign-language-web
     env: python
-    buildCommand: "pip install -r requirements.txt"
+    buildCommand: "python --version && pip install -r requirements.txt"
     startCommand: "python app.py"
     autoDeploy: true
     envVars:
